@@ -1,0 +1,347 @@
+body  {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+    background-color:#F9F5F6;
+}
+
+/* in the starting im giving section to my menu bar giving position:fixed to section1 and adding z-index:1 to visible my menu bar */
+
+/* ref: use color pelete website to select color and google fonts to add some extra fonts. */
+
+.section1 {
+   position: fixed; 
+   top: 0;
+   z-index: 1;
+   width: 100%;
+   height: 90px;;
+   margin: 0;
+   padding: 0;
+   border-bottom:;
+   background-color: #FDCEDF;
+   
+   
+}
+.section1 img {
+    position: absolute;
+    left: 0;
+    width: 80px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.section1 ul {
+    position: absolute;
+   right:0;
+   margin: 37px;
+   padding:0;
+}
+
+.section1 li :hover {
+    text-decoration: underline;
+}
+.section1 li {
+display: inline-block;
+margin-right: 22px;
+list-style-type: none;
+}
+.section1 a {
+text-decoration: none;
+color: black;
+font-family: 'Lucida Sans';
+}
+ /*made section2 for my content and images where i have justify all content with 
+50% width and all the images with 50% width. also set position top and right to adjust
+pictures.  */
+
+
+.section2 {
+    position: relative;
+    width: 100%;
+    height: 479px; 
+    background-color:#F8E8EE;
+    margin-top: 90px;
+    padding: 0;
+
+}
+
+.content {
+    width: 50%;
+    position: absolute;
+    display: inline-block;
+    margin: 80px 30px;
+}
+
+.content h1 {
+    font-size: 40px;
+    font-family: 'Lucida Sans';
+}
+.content span {
+color: lightsalmon;
+font-style: italic;
+}
+.content p {
+
+}
+.content button {
+font-size: 20px;
+border: 1px solid black;
+border-radius: 10px;
+background-color: black;
+}
+.content button a {
+color: white;
+font-size: 18px;
+padding: 10px;
+text-decoration: none;
+}
+
+
+
+.images {
+    width: 50%;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+
+}
+.images img {
+    width: 150px;
+    margin: 20px;
+}
+
+/* making anew section for about us */
+
+
+.aboutus {
+   position:relative;
+   top: 0;
+   right: 0;
+   left: 0;
+   bottom: 0;
+   margin: 0;
+   padding: 0;
+
+
+}
+
+.aboutus img {
+    width: 400px;
+   display: inline-block;
+   position: absolute;
+   left:0;
+   margin-top: 54px;
+    margin-left: 63px;
+}
+
+.aboutus h2 {
+    display: inline-block;
+    position: absolute;
+    right:0;
+    width:50%;
+    margin-top: 40px;
+    padding-right: 24px;
+}
+
+.p1 {
+    display: inline-block;
+    position: absolute;
+    right:0;
+    width:50%;
+    margin-top: 87px;
+    padding-right: 24px;
+}
+
+.p2 {
+    display: inline-block;
+    position: absolute;
+    right:0;
+    width:50%;
+    margin-top: 189px;
+    padding-right: 24px;
+}
+
+
+/* now im going to add a new section of services in it i will use some of the new properties. */
+
+
+.div1 {
+position: relative;
+top:0;
+text-align: center;
+width: 100%;
+margin-top: 509px;
+}
+
+.div1 h2 {
+text-align: center;
+}
+.div1 p {
+text-align: center;
+}
+
+.div2 {
+    position: relative;
+    top:0;
+    text-align: center;
+    width: 100%;
+    margin-top: 74px;
+}
+.div2 p {
+text-align: center;
+margin-left: 100px;
+margin-right: 100px;
+}
+
+.div3 {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    margin-top: 200px;
+}
+
+.src1 {
+    position: absolute;
+    width: 30%;
+    text-align: center;
+}
+.src2 {
+    position: absolute;
+    width: 30%;
+    margin-left: 464px;
+    text-align: center;
+}
+.src3 {
+    position: absolute;
+    width: 30%;
+    margin-left: 924px;
+    text-align: center;
+}
+
+.div4 {
+    position: relative;
+    display: inline-block;
+    margin-top: 400px;
+    width: 100%;;
+
+}
+
+
+.src4 {
+    position: absolute;
+    width: 30%;
+    text-align: center;
+    margin-top: 165px;
+}
+.src5 {
+    position: absolute;
+    width: 30%;
+    margin-left: 464px;
+    text-align: center;
+    margin-top: 165px;
+}
+.src6 {
+    position: absolute;
+    width: 30%;
+    margin-left: 924px;
+    text-align: center;
+    margin-top: 165px;
+}
+
+.div3 img {
+    width: 230px;
+    word-wrap: break-word;
+}
+.div3 h2 {
+    font-family: sans-serif;
+}
+.div3 p {
+    margin: 0 100px 0 100px;
+    color: gray;
+}
+.div4 img {
+    width: 230px;
+    word-wrap: break-word;
+}
+.div4 h2 {
+font-family: sans-serif;
+}
+.div4 p {
+    margin: 0 100px 0 100px;
+    color: gray;
+}
+
+
+
+
+
+.button2 {
+    position: fixed;
+    right:0;
+    z-index: 2;
+    bottom: 40px;
+    margin: -2px;
+    background-color: green;
+    border:none;
+    padding: 20px 30px 20px 30px;
+}
+
+
+.button2 img {
+    width:30px;
+    margin-right:10px ;
+}
+.button2 span {
+    font-size: large;
+    font-weight: bold;
+    color: white;
+}
+
+.button2 :hover{
+    margin: 5px;
+    box-shadow: 2px 5px black;
+}
+
+.socials {
+position: fixed;
+right: 0;
+top:200px;
+z-index:3;
+
+}
+
+.socials img :hover {
+ width:50px;
+ box-shadow: #F8E8EE;
+}
+.socials img {
+    display:block;
+    width: 45px;
+    margin-bottom: 17px;
+}
+.socials a :hover {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
