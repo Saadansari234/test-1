@@ -17,7 +17,6 @@ body  {
    height: 90px;;
    margin: 0;
    padding: 0;
-   border-bottom:;
    background-color: #FDCEDF;
    
    
@@ -80,9 +79,7 @@ pictures.  */
 color: lightsalmon;
 font-style: italic;
 }
-.content p {
 
-}
 .content button {
 font-size: 20px;
 border: 1px solid black;
@@ -319,9 +316,6 @@ z-index:3;
     display:block;
     width: 45px;
     margin-bottom: 17px;
-}
-.socials a :hover {
-    
 }
 
 
